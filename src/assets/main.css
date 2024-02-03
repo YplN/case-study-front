@@ -1,0 +1,30 @@
+@import './base.css';
+#app {
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: normal;
+  display: flex;
+  place-items: center;
+}
+
+body {
+  display: flex;
+  place-items: center;
+}
+
+main {
+  margin-top: var(--header-height);
+  width: clamp(300px, 100% - 2em, 800px);
+  margin-inline: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #42b883;
+}
+
+@media (hover: hover) {
+  a:hover {
+    text-decoration: underline;
+  }
+}
